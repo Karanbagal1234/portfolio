@@ -1,0 +1,150 @@
+@media (max-width: 992px) {
+  .menu {
+    display: block;
+    margin-right: 5vw;
+    font-size: 3vw;
+    top: 0;
+    right: 5px;
+  }
+
+  header {
+    justify-content: space-between;
+    padding: 0 1vw;
+    height: 10vw;
+    width: 100vw;
+    position: relative;
+  }
+
+  header div {
+    display: none;
+  }
+  header img {
+    height: 10vw;
+  }
+  ul {
+    z-index: 2;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    left: 0;
+    background-color: #182746;
+    top: 0;
+    height: 103vh;
+    width: 110vw;
+  }
+
+  .page1 {
+    height: 100vh;
+    flex-direction: column;
+  }
+  .page1-left {
+    height: 77vh;
+    margin-top: 82vw;
+  }
+  #main > div > div.page1-left {
+    height: 50vh;
+  }
+  .page1-left div h2 {
+    font-size: 5vw;
+    width: 72vw;
+  }
+  #main > div > div.page1-left > div {
+    height: 57vh;
+    gap: 17vw;
+  }
+  .contact-container {
+    width: 60vw;
+  }
+  .contact-container a {
+    height: 11.6vh;
+    width: 13.6vw;
+  }
+  .line {
+    width: 12.25vw;
+  }
+  .page1-right {
+    justify-content: center;
+    align-items: center;
+  }
+  .page2 {
+    margin-top: 60vw;
+    width: 108vw;
+  }
+  p {
+    margin: 3vw 10vw;
+    font-size: 2.3vw;
+  }
+  .skills {
+    grid-template-columns: 50vw;
+    gap: 7vw;
+  }
+  .box {
+    width: 50vw;
+  }
+  .page3 {
+    padding: 10px;
+    width: 104vw;
+  }
+  .portfolio-content {
+    grid-template-columns: 25vw;
+  }
+  .boxes {
+    width: 74vw;
+  }
+  .project-name h2 {
+    font-size: 7vw;
+  }
+  .project-name i {
+    font-size: 13vw;
+  }
+  .project-info h1 {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu {
+    font-size: 5vw;
+  }
+  header {
+    height: 15vw;
+    width: 108vw;
+  }
+  header img {
+    height: 15vw;
+  }
+  div.page1-left div h2 {
+    font-size: 6vw;
+  }
+  .page1 {
+    height: 80vh;
+  }
+  .contact-container {
+    width: 60vw;
+  }
+  .contact-container a {
+    height: 7.6vh;
+    width: 34.6vw;
+  }
+  p {
+    font-size: 6vw;
+  }
+  .skills {
+    gap: 35px;
+    padding: 31px 0;
+  }
+  .page2 {
+    width: 111vw;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .page1-right {
+    justify-content: end;
+    align-items: end;
+    margin-top: -62px;
+  }
+  .page1-right img {
+    height: 70%;
+  }
+}
